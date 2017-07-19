@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  2w4d3_every.DoItAgain
 //
 //  Created by Seantastic31 on 19/07/2017.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class ToDo;
 
+@interface DetailViewController : UIViewController
+
+@property (nonatomic) ToDo *myTodo;
 
 @end
-
